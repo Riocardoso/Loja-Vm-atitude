@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vm Atidude</title>
+    <link href="./style.css" rel="stylesheet">
+</head>
+<body>
+ 
+    <h1 class="titulo">
+        Welcome to Vm Atidude <img src="./imagen de fogo.png">
+
+   <p>vamos começar criando sua conta</p>
+</h1>
+<!--incluindo Formulario do method post-->
+<form action="cadastro" method="post">
+
+    <label for = "name" > Nome :</label>
+    <input type="text" nome = "nome" id="nome" placeholder="nome é sobrenome">
+<br>
+    <label for = "email" > email :</label>
+    <input type="email" nome = "email" id="email" placeholder="digite seu email">
+<br>
+   <label for = "senha" > senha :</label>
+    <input type="password" nome = "senha" id="senha" placeholder="passaword">
+
+<br></br>
+<!--incluindo um radio button para incluir uma informação -->
+<label> Informe seu Genero ?</label>
+<br></br>
+
+<input type="radio" id="masculino" name = "Genero" value="masculino"><label for="Masculino">Masculino</label>
+<input type="radio" id="femenino" name = "Genero" value="masculino"><label for="femenino">Femenino</label>
+<input type="radio" id=">Não informar" name = "Genero" value=">Não informa"><label for=">Não informar">Não Informar</label>
+
+<br></br>
+<!--usando o checkbox para agrupa mais de uma informação.-->
+<label> Informe seu genero de filmes favoritos? </label>
+
+<br></br>
+
+<input type="checkbox" id="Drama" name ="genero" value = "Drama"><label for="Sim"> Drama </label>
+<input type="checkbox" id="Terro" name ="genero" value="Terro"><label for="Terro"> Terro </label>
+<input type="checkbox" id="comedia" name="genero" value="comedia"><label for = "comédia"> Comedia </label>
+<br></br>
+
+<label for="pais">País</label>
+
+<select name="pais" id="pais"> 
+
+    <option selected disabled >Selecionar </option>
+    <option value="BRA"> Brasil</option>
+    <option value="ARG"> Argentina</option>
+    <option value="UY"> Uruguai</option>
+
+</select>
+
+
+
+
+
+
+<br></br>
+
+   <input type="submit">
+
+</form>
+
+
+</body>
+</html>
+
+
+
+    
