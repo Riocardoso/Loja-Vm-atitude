@@ -44,7 +44,7 @@
 <input type="checkbox" id="Terro" name ="genero" value="Terro"><label for="Terro"> Terro </label>
 <input type="checkbox" id="comedia" name="genero" value="comedia"><label for = "comédia"> Comedia </label>
 <br></br>
-
+<!--ultilizando o select para adicionar opções-->
 <label for="pais">País</label>
 <select name="pais" id="pais"> 
     <option selected disabled >Selecionar </option>
@@ -54,7 +54,42 @@
 </select>
 <br></br>
 
-<input type="submit">
+<label>Selecione o mês do seu aniversário</label>
+<select name = "mes">
+  <option value = "1">Janeiro</option>
+  <option value = "2" >Fevereiro</option>
+  <option value = "3" >Março</option>
+  <option value ="4">Abril</option>
+  <option value = "5" >Maio</option>
+  <option value ="6" >Junho</option>
+  <option value = "7" >Julho</option>
+  <option value = "8" >Agosto</option>
+  <option value = "9" >Setembro</option>
+  <option value = "10" >Outubro</option>
+  <option value ="11" >Novembro</option>
+  <option value = "12">Dezembro</option>
+
+  <br></br>
+<!--input date para selecinar uma data-->
+<label> Selecione uma data</label>
+  <input type="date" name="fecha" min="31-12-2012" max="31-12-2023">
+  <br></br>
+  <!--um input file para adicionar um arquivo...-->
+<label>Uma foto para perfil</label>
+  <input type="file" value="avatar" accept=".jpg" multiple 
+</select>
+<br></br>
+
+
+
+<label> Deixe um comentario para feedback</label>
+<br></br>
+<!--usando o textarea para campos de texto maiores, ultilizamos tambem a tag button que nos permite criar botoes para apagar enviar...-->
+<textarea name="menssagem" id="menssagem" cols="15" rows="7"></textarea>
+<br>
+<button type = submit>Enviar</button>
+<button type="reset">Apagar</button>
+<br></br>
 
 </form>
 
